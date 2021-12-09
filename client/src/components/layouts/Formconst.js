@@ -58,7 +58,15 @@ class Formconst extends Component {
                     
                     
                     
-                    
+        <div className=' right-0 md:block md:relative w-full md:w-auto '>
+               
+               
+                <div className="w-full md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none">
+                 
+                 
+                 <div className="md:flex items-center">
+               
+              
 
                     
                 <div className= {this.state.toggle ? 'flex justify-center bg-white p-8 border rounded ': 'hidden'}>
@@ -97,6 +105,9 @@ class Formconst extends Component {
      
         
        
+     </div>
+     </div>
+   </div>
 
   
     )

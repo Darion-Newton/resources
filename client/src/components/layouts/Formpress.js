@@ -44,10 +44,18 @@ class Formpress extends Component {
   </div>
 </div>
                     </div>
-                    
+                    <div className=' right-0 md:block md:relative w-full md:w-auto '>
+               
+                 <div className="w-full md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none">
+                 
+                 
+                 <div className="md:flex items-center">
+               
+              
           <div className= {this.state.toggle ? 'flex justify-center bg-white p-8 border rounded ': 'hidden'}>
 
-
+ 
+             
               
           <form name="contact">
 
@@ -55,7 +63,7 @@ class Formpress extends Component {
           
   <div className="flex items-center border-b border-blue-500 py-2">
     <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Jane Doe" aria-label="Full name"/>
-    <button className="flex-shrink-0 bg-blue-500 hover:bg-blue-700 border-blue-500 hover:border-blue-700 text-sm border-4 text-white py-1 px-2 rounded" type="button"  onClick={this.clickHandler}>
+    <button className="block flex-shrink-0 bg-blue-500 hover:bg-blue-700 border-blue-500 hover:border-blue-700 text-sm border-4 text-white py-1 px-2 rounded" type="button"  onClick={this.clickHandler}>
       Sign Up
     </button>
 
@@ -65,6 +73,9 @@ class Formpress extends Component {
         </div>
       </div>
       
+      </div>
+        </div>
+      </div>
       
   
     )
