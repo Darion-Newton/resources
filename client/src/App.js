@@ -1,4 +1,4 @@
-import "tailwindcss/tailwind.css";
+
 import './App.css';
 import Landing from "./components/layouts/Landing";
 import React, { Fragment } from 'react';
@@ -8,6 +8,7 @@ import './App.css';
 
 
 import './styles/index.css';
+import './styles/tailwind.css';
 
 const App = () => (
   
