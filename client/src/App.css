@@ -1,9 +1,6 @@
-@import "styles/tailwindcss/base";
-
-@import "styles/tailwindcss/components";
-
-@import "styles/tailwindcss/utilities";
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   text-align: center;
 }
