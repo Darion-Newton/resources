@@ -1,8 +1,8 @@
-@import "tailwindcss/base";
+@import "styles/tailwindcss/base";
 
-@import "tailwindcss/components";
+@import "styles/tailwindcss/components";
 
-@import "tailwindcss/utilities";
+@import "styles/tailwindcss/utilities";
 
 .App {
   text-align: center;
@@ -12,12 +12,8 @@
   height: 40vmin;
   pointer-events: none;
 }
-
-.button-bg{
-  background-color: #201747;
-}
 .bg-matching{
-  background-color: #409;
+background-color:   #409;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
