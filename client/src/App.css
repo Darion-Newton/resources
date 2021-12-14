@@ -4,13 +4,28 @@
 .App {
   text-align: center;
 }
-
+.fa-arrow-alt-circle-right{
+  font-size: 15px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.text-match{
+  color: #434f58
+}
+.text-cta{
+  color: #61CE70;
+}
+.bg-button2{
+  background-color:#61CE70;
+}
+
+.bg-button{
+  border-color: #61CE70;
+}
 .bg-matching{
-background-color:   #409;
+background-color:   #212121;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

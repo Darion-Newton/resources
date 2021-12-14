@@ -370,7 +370,7 @@ ul {
  */
 
 html {
-  font-family: "Ubuntu",sans-serif; /* 1 */
+  font-family: 'Roboto'; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -380,8 +380,10 @@ html {
  */
 
 body {
-  font-family: inherit;
+  font-family: 'Roboto';
+  font-weight: 600;
   line-height: inherit;
+  -webkit-font-smoothing: antialiased;
 }
 
 /**
@@ -591,7 +593,8 @@ video {
 html {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 251, 235, var(--tw-bg-opacity));
-  font-family: "Ubuntu",sans-serif;
+  font-family: "Roboto";
+  font-weight:600;
   height: 100%;
 }
 

@@ -6,7 +6,7 @@
 @layer components {
   /* #region DEFAULTS */
   html {
-    @apply bg-blue-100 h-full;
+    @apply  bg-blue-100 h-full;
   }
   /* #endregion */
 
